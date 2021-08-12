@@ -7,3 +7,4 @@ var randomDiceSource = "images/" + randomDice1; //images/dice1.png - images/dice
 
 var dice1 = document.querySelectorAll("img")[0]; //select first dice image in order to manipulate DOM 
 
+dice1.setAttribute("src", randomDiceSource); //update dynamically img src attribute 
