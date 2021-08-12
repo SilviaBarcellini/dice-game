@@ -15,3 +15,11 @@ var randomDiceSource2 = "images/" + randomDice2;
 
 var dice2 = document.querySelectorAll("img")[1]; //select second dice image in order to manipulate DOM 
 dice2.setAttribute("src", randomDiceSource2); //update dynamically img src attribute 
+
+if (randomNumber1 > randomNumber2) {
+    document.querySelector("h1").innerHTML = "Player 1 Wins! 🎉"
+} else if (randomNumber1 < randomNumber2) {
+    document.querySelector("h1").innerHTML = "Player 2 Wins! 🎉"
+} else {
+    document.querySelector("h1").innerHTML = "You have a draw! 😐 Try again"
+}
