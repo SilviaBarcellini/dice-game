@@ -5,4 +5,5 @@ var randomDice1 = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
 var randomDiceSource = "images/" + randomDice1; //images/dice1.png - images/dice6.png
 
-var randomDice1 = document.querySelectorAll("img")[0]; //select first dice image in order to manipulate DOM 
+var dice1 = document.querySelectorAll("img")[0]; //select first dice image in order to manipulate DOM 
+
