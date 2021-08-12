@@ -3,3 +3,4 @@ console.log(randomNumber1)
 
 var randomDice1 = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
+var randomDiceSource = "images/" + randomDice1; //images/dice1.png - images/dice6.png
