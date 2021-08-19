@@ -1,2 +1,2 @@
 # dice-game
-Dice Game Web App developed with JavaScript
+Dice Game Website developed with JavaScript
